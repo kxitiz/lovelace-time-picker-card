@@ -4,7 +4,7 @@
 [![Downloads][downloads-shield]][downloads-link]
 [![GitHub Release][releases-shield]][releases-link]
 [![CI][ci-shield]][ci-link]
-[![Project Maintenance][maintenance-shield]][maintenance-link]
+<!-- [![Project Maintenance][maintenance-shield]][maintenance-link] -->
 [![License][license-shield]][license-link]
 
 ## Overview
@@ -27,7 +27,7 @@ resources:
 
 ### Manual
 
-Download time-picker-card.js from the [latest realease](https://github.com/GeorgeSG/lovelace-time-picker-card/releases/latest) and place it in your `config/www` folder. Add the following to your config:
+Download time-picker-card.js from the [latest realease](https://github.com/kxitiz/lovelace-time-picker-card/releases/latest) and place it in your `config/www` folder. Add the following to your config:
 
 ```yaml
 resources:
@@ -41,13 +41,13 @@ resources:
 
 Time Picker Card supports Lovelace's Visual Editor. Click the + button to add a card and search for time picker.
 
-![Visual Editor](https://raw.githubusercontent.com/GeorgeSG/lovelace-time-picker-card/master/examples/visual_editor.png)
+![Visual Editor](https://raw.githubusercontent.com/kxitiz/lovelace-time-picker-card/master/examples/visual_editor.png)
 
 ## Examples
 
 ### Default config - card name shown, 24 hour mode
 
-![Default theme with card name](https://raw.githubusercontent.com/GeorgeSG/lovelace-time-picker-card/master/examples/default_with_name.png)
+![Default theme with card name](https://raw.githubusercontent.com/kxitiz/lovelace-time-picker-card/master/examples/default_with_name.png)
 
 ```yaml
 type: 'custom:time-picker-card'
@@ -56,7 +56,7 @@ entity: input_datetime.alarm_time
 
 ### Custom config - hidden card name, 12 hour mode
 
-![Default theme with no card name](https://raw.githubusercontent.com/GeorgeSG/lovelace-time-picker-card/master/examples/default_without_name.png)
+![Default theme with no card name](https://raw.githubusercontent.com/kxitiz/lovelace-time-picker-card/master/examples/default_without_name.png)
 
 ```yaml
 type: 'custom:time-picker-card'
@@ -68,7 +68,7 @@ hide:
 
 ### Custom config - hidden card name, 12 hour mode with a "single" hour mode picker
 
-![Default theme with single hour mode](https://raw.githubusercontent.com/GeorgeSG/lovelace-time-picker-card/master/examples/single_hour_mode.png)
+![Default theme with single hour mode](https://raw.githubusercontent.com/kxitiz/lovelace-time-picker-card/master/examples/single_hour_mode.png)
 
 ```yaml
 type: 'custom:time-picker-card'
@@ -82,7 +82,7 @@ hide:
 
 ### Custom config - card name inside card and controls aligned right
 
-![Default theme with single hour mode](https://raw.githubusercontent.com/GeorgeSG/lovelace-time-picker-card/master/examples/name_inside.png)
+![Default theme with single hour mode](https://raw.githubusercontent.com/kxitiz/lovelace-time-picker-card/master/examples/name_inside.png)
 
 ```yaml
 type: 'custom:time-picker-card'
@@ -94,7 +94,7 @@ layout:
 
 ### With a custom lovelace theme
 
-![Custom theme](https://raw.githubusercontent.com/GeorgeSG/lovelace-time-picker-card/master/examples/custom.png)
+![Custom theme](https://raw.githubusercontent.com/kxitiz/lovelace-time-picker-card/master/examples/custom.png)
 
 ## Options
 
@@ -141,27 +141,20 @@ you can use the following variables in your theme's config file:
 | time-picker-border-radius             | `var(--ha-card-border-radius)` | Border radius of the card                                                                            |
 | time-picker-control-padding           | `8px`                          | Padding for interactive elements. Increase for larger hitboxes of the controls. Example: `10px 12px` |
 
-## Meta
-
-**Georgi Gardev**
-
-- [gar.dev](https://gar.dev)
-- [![GitHub][github-icon]][github-link] [GeorgeSG][github-link]
-- [![Twitter][twitter-icon]][twitter-link] [@georgesg92][twitter-link]
 
 [hacs-shield]: https://img.shields.io/badge/HACS-Default-brightgreen.svg
 [hacs-link]: https://github.com/custom-components/hacs
-[downloads-shield]: https://img.shields.io/github/downloads/GeorgeSG/lovelace-time-picker-card/latest/total?color=brightgreen&logo=github
-[downloads-link]: https://github.com/GeorgeSG/lovelace-time-picker-card/releases
-[releases-shield]: https://img.shields.io/github/release/GeorgeSG/lovelace-time-picker-card.svg
-[releases-link]: https://github.com/GeorgeSG/lovelace-time-picker-card/releases
-[ci-shield]: https://img.shields.io/github/workflow/status/GeorgeSG/lovelace-time-picker-card/CI?label=CI&logo=github&
-[ci-link]: https://github.com/GeorgeSG/lovelace-time-picker-card/actions?query=workflow%3ACI
+[downloads-shield]: https://img.shields.io/github/downloads/kxitiz/lovelace-time-picker-card/latest/total?color=brightgreen&logo=github
+[downloads-link]: https://github.com/kxitiz/lovelace-time-picker-card/releases
+[releases-shield]: https://img.shields.io/github/release/kxitiz/lovelace-time-picker-card.svg
+[releases-link]: https://github.com/kxitiz/lovelace-time-picker-card/releases
+[ci-shield]: https://img.shields.io/github/workflow/status/kxitiz/lovelace-time-picker-card/CI?label=CI&logo=github&
+[ci-link]: https://github.com/kxitiz/lovelace-time-picker-card/actions?query=workflow%3ACI
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
-[maintenance-link]: https://github.com/GeorgeSG/lovelace-time-picker-card
-[license-shield]: https://img.shields.io/github/license/GeorgeSG/lovelace-time-picker-card?color=brightgreen
-[license-link]: https://github.com/GeorgeSG/lovelace-time-picker-card/blob/master/LICENSE
+[maintenance-link]: https://github.com/kxitiz/lovelace-time-picker-card
+[license-shield]: https://img.shields.io/github/license/kxitiz/lovelace-time-picker-card?color=brightgreen
+[license-link]: https://github.com/kxitiz/lovelace-time-picker-card/blob/master/LICENSE
 [github-icon]: http://i.imgur.com/9I6NRUm.png
-[github-link]: https://github.com/GeorgeSG/
+[github-link]: https://github.com/kxitiz/
 [twitter-icon]: http://i.imgur.com/wWzX9uB.png
-[twitter-link]: https://twitter.com/georgesg92
+[twitter-link]: https://twitter.com/kxitiz92
