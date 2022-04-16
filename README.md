@@ -1,11 +1,11 @@
 # Time Picker Card
 
 [![HACS][hacs-shield]][hacs-link]
-[![Downloads][downloads-shield]][downloads-link]
-[![GitHub Release][releases-shield]][releases-link]
-[![CI][ci-shield]][ci-link]
+<!-- [![Downloads][downloads-shield]][downloads-link] -->
+<!-- [![GitHub Release][releases-shield]][releases-link] -->
+<!-- [![CI][ci-shield]][ci-link] -->
 <!-- [![Project Maintenance][maintenance-shield]][maintenance-link] -->
-[![License][license-shield]][license-link]
+<!-- [![License][license-shield]][license-link] -->
 
 ## Overview
 
